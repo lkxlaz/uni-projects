@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2016, 9:23:26 PM
+    Author     : liangze
+*/
+
+.heading {
+  -fx-font-size: 32px;
+  -fx-font-family: "Arial";
+  -fx-fill: #ffffff;
+}
+
+Label {
+  -fx-font-size: 12px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #333333;
+}
+
+Button {
+  -fx-font-family: "Arial";
+  -fx-font-weight: bold;
+  -fx-background-color: #0099cc;
+  -fx-text-fill: #ffffff;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+Button:hover {
+  -fx-background-color: #00bfff;
+}
+
+.header {
+  -fx-background-color: #0099cc;
+  -fx-padding: 20;
+}
+
+.content {
+  -fx-background-color: #00749b;
+}
+
+.footer {
+  -fx-background-color: #252b2b;
+  -fx-padding: 15;
+}
+
+.errorText {
+  -fx-font-weight: bold;
+  -fx-fill: #b22222;
+}
+
+.gridpane {
+   -fx-background-color: white;
+}
+
+
+
+

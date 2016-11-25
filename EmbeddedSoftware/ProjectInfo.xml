@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MK70FN1M0xxx12</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M4</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>128k</SRAMsize>
+    <FLASHsize>1M</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>H:\48434 SPRING\OSExample\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>H:\48434 SPRING\OSExample\Static_Code\PDD\</Path>
+      <Path>H:\48434 SPRING\OSExample\Static_Code\IO_Map\</Path>
+      <Path>H:\48434 SPRING\OSExample\Sources\</Path>
+      <Path>H:\48434 SPRING\OSExample\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>H:\48434 SPRING\OSExample\Generated_Code\</Path>
+      <Path>H:\48434 SPRING\OSExample\Project_Settings\Startup_Code\</Path>
+      <Path>H:\48434 SPRING\OSExample\Sources\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>H:\48434 SPRING\OSExample\Generated_Code\Cpu.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Generated_Code\PE_LDD.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Generated_Code\Vectors.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Project_Settings\Startup_Code\startup.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\Events.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\FIFO.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\FTM.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\Flash.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\LEDs.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\PIT.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\RTC.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\SPI.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\UART.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\analog.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\main.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\median.c</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\packet.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>H:\48434 SPRING\OSExample\Generated_Code\Cpu.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Generated_Code\IO_Map.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Generated_Code\PE_Const.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Generated_Code\PE_Error.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Generated_Code\PE_LDD.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Generated_Code\PE_Types.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Library\OS.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\Events.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\FIFO.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\FTM.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\Flash.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\LEDs.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\PIT.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\RTC.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\SPI.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\UART.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\analog.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\median.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\packet.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Sources\types.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Static_Code\IO_Map\MK70F12.h</PathName>
+      <PathName>H:\48434 SPRING\OSExample\Static_Code\PDD\PDD_Types.h</PathName>
+    </GeneratedHs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>

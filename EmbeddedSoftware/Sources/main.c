@@ -503,7 +503,6 @@ int main(void)
 			  &FTMCh1ThreadStack[THREAD_STACK_SIZE - 1],
 			  5);
 
-
   OS_Start();
 
 
